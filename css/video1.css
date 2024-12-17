@@ -1,0 +1,40 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: darkgrey;
+    text-align: center;
+}
+main{
+    background-color: rgb(92, 90, 90);
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    margin: 20px auto;
+    padding: 5px 5px 15px 5px;
+    border-radius: 10px;
+    box-shadow: gray 5px 5px 10px;
+}
+#section-video{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 5px;
+}
+#barra{
+    background: #fff;
+    width: 600px;
+    height: 16px;
+    border: 1px solid lightgrey;
+    padding: 3px;
+}
+#progreso{
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    background: rgba(0, 150, 0, 2);
+}
